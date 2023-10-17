@@ -149,7 +149,7 @@ image_channel_pca = compute_pca(image_data_dict['np_image_array'])
 
 
 ```python
-n_comp = 2
+n_comp = 20
 compressed_image = reconstruct_n_components(n_comp, image_channel_pca)
 print(compressed_image.shape)
 ```
